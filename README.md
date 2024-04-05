@@ -20,7 +20,7 @@ AfroCulture Quiz is an interactive web application designed to test users' knowl
 
 To use AfroCulture Quiz:
 
-1. Visit the [AfroCulture Quiz website](https://afroculturequiz.com).
+1. Visit the [AfroCulture website](https://afroculture.vercel.app/).
 2. Click on the "Start Quiz" button to begin the quiz.
 3. Answer each question within the allotted time.
 4. Click the "Next" button to proceed to the next question.
@@ -54,6 +54,6 @@ To set up the project locally, follow these steps:
 
 ## Credits
 
-- **Author**: [Maxime Guy Bakunzi]
-- **Email**: [m.bakunzi@alustudent.com]
+- **Author**: [Maxime Guy Bakunzi](https://github.com/Maxime-Bakunzi/afroculture)
+- **Email**: m.bakunzi@alustudent.com
 
