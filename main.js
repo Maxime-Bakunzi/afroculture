@@ -185,9 +185,15 @@ const quizContainer = document.querySelector(".quiz-container");
 const question = document.querySelector(".quiz-container .question");
 const options = document.querySelector(".quiz-container .options");
 const nextBtn = document.querySelector(".quiz-container .next-btn");
+const homeBtn = document.querySelector(".quiz-container .home-btn");
+
 const quizResult = document.querySelector(".quiz-result");
 const startBtnContainer = document.querySelector(".start-btn-container");
 const startBtn = document.querySelector(".start-btn-container .start-btn");
+
+const goToHome = () => {
+  location.href = '/index.html';
+}
 
 let questionNumber = 0;
 let score = 0;
@@ -328,6 +334,7 @@ const displayNextQuestion = () => {
 };
 
 nextBtn.addEventListener("click", displayNextQuestion);
+homeBtn.addEventListener("click", goToHome);
 
 startBtn.addEventListener("click", () => {
   startBtnContainer.style.display = "none";

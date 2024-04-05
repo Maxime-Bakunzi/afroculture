@@ -57,7 +57,7 @@
   background: #e63946;
 }
 
-.quiz-container .next-btn,
+.quiz-container .next-btn, .home-btn,
 .quiz-result .retake-btn {
   background: #222;
   color: #fff;
